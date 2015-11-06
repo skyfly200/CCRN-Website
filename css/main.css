@@ -1,0 +1,125 @@
+body {
+	text-align: center;
+	padding:0;
+	font-size: 14px !important;
+}
+
+p {
+	font-family: 'Asap', sans-serif;
+	font-size: 12px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+input {
+	padding: 5px;
+}
+
+nav {
+	font-family: 'Asap', sans-serif;
+}
+
+.title{
+	padding-top: 15px;
+}
+
+.container-fluid {
+    padding:0;
+    margin:0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+}
+
+.nav {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+a.site-title:hover {
+	text-decoration: none;
+}
+
+#site-title-div {
+	margin-left: -2%;
+	padding-left: 3%;
+	display: table; 
+	height: 62px; 
+	overflow: hidden;
+}
+
+#site-title-block {
+	font-size: 100%;
+	font-family: 'Julius Sans One', sans-serif;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+@media (min-width: 545px){ p { font-size: 14px !important; } }
+@media (min-width: 940px){ p { font-size: 16px !important; } }
+@media (min-width: 1200px){ p { font-size: 18px !important; } }
+@media (min-width: 1750px){ p { font-size: 20px !important; } }
+
+@media (min-width: 350px){ #site-title-div { height: 75px; } }
+@media (min-width: 400px){ #site-title-div { height: 82px; } }
+@media (min-width: 435px){ #site-title-div { height: 92px; } }
+@media (min-width: 500px){ #site-title-div { height: 105px; } }
+@media (min-width: 545px){ #site-title-div { height: 117px; } }
+@media (min-width: 600px){ #site-title-div { height: 130px; } }
+@media (min-width: 640px){ #site-title-div { height: 140px; } }
+@media (min-width: 705px){ #site-title-div { height: 155px; } }
+@media (min-width: 768px){ #site-title-div { height: 116px; } }
+@media (min-width: 800px){ #site-title-div { height: 122px; } }
+@media (min-width: 820px){ #site-title-div { height: 128px; } }
+@media (min-width: 890px){ #site-title-div { height: 138px; } }
+@media (min-width: 940px){ #site-title-div { height: 148px; } }
+@media (min-width: 992px){ #site-title-div { height: 98px; } }
+@media (min-width: 1050px){ #site-title-div { height: 110px; } }
+@media (min-width: 1200px){ #site-title-div { height: 125px; } }
+@media (min-width: 1260px){ #site-title-div { height: 132px; } }
+@media (min-width: 1350px){ #site-title-div { height: 145px; } }
+@media (min-width: 1500px){ #site-title-div { height: 160px; } }
+@media (min-width: 1750px){ #site-title-div { height: 200px; } }
+@media (min-width: 2000px){ #site-title-div { height: 230px; } }
+@media (min-width: 2500px){ #site-title-div { height: 290px; } }
+@media (min-width: 3000px){ #site-title-div { height: 350px; } }
+@media (min-width: 3500px){ #site-title-div { height: 400px; } }
+@media (min-width: 4000px){ #site-title-div { height: 460px; } }
+
+@media (min-width: 350px){ #site-title-block {font-size: 110%;} }
+@media (min-width: 400px){ #site-title-block {font-size: 130%;} }
+@media (min-width: 435px){ #site-title-block {font-size: 140%;} }
+@media (min-width: 500px){ #site-title-block {font-size: 170%;} }
+@media (min-width: 545px){ #site-title-block {font-size: 185%;} }
+@media (min-width: 600px){ #site-title-block {font-size: 205%;} }
+@media (min-width: 640px){ #site-title-block {font-size: 220%;} }
+@media (min-width: 705px){ #site-title-block {font-size: 245%;} }
+@media (min-width: 768px){ #site-title-block {font-size: 180%;} }
+@media (min-width: 800px){ #site-title-block {font-size: 185%;} }
+@media (min-width: 820px){ #site-title-block {font-size: 190%;} }
+@media (min-width: 890px){ #site-title-block {font-size: 210%;} }
+@media (min-width: 940px){ #site-title-block {font-size: 220%;} }
+@media (min-width: 992px){ #site-title-block {font-size: 265%;} }
+@media (min-width: 1050px){ #site-title-block {font-size: 280%;} }
+@media (min-width: 1200px){ #site-title-block {font-size: 320%;} }
+@media (min-width: 1260px){ #site-title-block {font-size: 335%;} }
+@media (min-width: 1350px){ #site-title-block {font-size: 360%;} }
+@media (min-width: 1500px){ #site-title-block {font-size: 400%;} }
+@media (min-width: 1750px){ #site-title-block {font-size: 460%;} }
+@media (min-width: 2000px){ #site-title-block {font-size: 520%;} }
+@media (min-width: 2500px){ #site-title-block {font-size: 650%;} }
+@media (min-width: 3000px){ #site-title-block {font-size: 800%;} }
+@media (min-width: 3500px){ #site-title-block {font-size: 900%;} }
+@media (min-width: 4000px){ #site-title-block {font-size: 1100%;} }
+
+
+
+
+
