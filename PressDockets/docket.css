@@ -1,0 +1,51 @@
+.title-name {
+	font-family: "Times New Roman";
+    font-size: 60px;
+}
+
+.title-info {
+	font-family: "Times New Roman";
+    font-size: 55px;
+}
+
+.title-url {
+    font-size: 30px;
+}
+
+.top-text {
+    font-size: 25px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.subheading {
+    font-size: 30px;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.station-info {
+    font-size: 30px;
+}
+
+.station-url {
+	text-decoration: underline;
+}
+
+.band {
+    font-size: 25px;
+	text-decoration: underline;
+}
+
+.event {
+    font-size: 22px;
+	text-decoration: underline;
+}
+
+.bottom-text {
+    font-size: 25px;
+}

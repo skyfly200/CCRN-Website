@@ -1,7 +1,8 @@
 	<hr>
 	<footer>
 		<div class="footer-text">
-			<h4>&copy; Colorado Community Radio Network 2015<h3>
+			<h4>&copy; Colorado Community Radio Network 2013-<?php echo date("Y");?><h3>
+            <h4><a href="privacy_policy.php">Privacy Policy</a> - <a href="cookie_policy.php">Cookie Policy</a></h4>
 		</div>
 	</footer>
 

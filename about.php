@@ -1,7 +1,10 @@
 <?php 
 	$pagename = "About";
+	// import html head section
 	require 'head.php'; 
+	// start html body section
 	echo "<body>";
+	// inport header
 	require 'header.php'; 
 ?>
 	<div class="container-fluid">	

@@ -1,7 +1,10 @@
 <?php 
 	$pagename = "Home";
+	// import html head section
 	require 'head.php'; 
+	// start html body section
 	echo "<body>";
+	// inport header
 	require 'header.php'; 
 ?>
 
@@ -28,14 +31,13 @@
 			<a href="http://greenlightradio.com/"><h3>KGLR</h3></a>
 			<a href="http://greenlightradio.com/"><img src="http://coloradocommunityradio.weebly.com/uploads/2/6/8/8/26884747/1394128391.jpg" class="img-responsive center-block img-rounded" alt="Green Light Radio's Logo"></a>
 			<caption><h4>95.5 FM KGLR Boulder</h4></caption>
-			<a href="http://greenlightradio.com/"><h4>Listen Online</h4></a>
+			<a href="http://cloudrad.io/greenlightradio/player"><h4>Listen Online</h4></a>
 		</div>
-		
 		<div class=".col-xs-6 col-sm-3">
 			<a href="https://www.facebook.com/KNEDRadio"><h3>KNED</h3></a>
 			<a href="https://www.facebook.com/KNEDRadio"><img src="http://coloradocommunityradio.weebly.com/uploads/2/6/8/8/26884747/1394519249.jpg" class="img-responsive center-block img-rounded" alt="KNED's Logo"></a>
 			<caption><h4>93.1 FM KNED Nederland</h4></caption>
-			<a href="http://cloudrad.io/kned/listen.pls"><h4>Listen Online</h4></a>
+			<a href="http://cloudrad.io/kned/player"><h4>Listen Online</h4></a>
 		</div>
 		<div class=".col-xs-6 col-sm-3">
 			<a href="http://www.wayhighradio.com/"><h3>KWHR</h3></a>

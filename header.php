@@ -16,18 +16,28 @@
 			</div>
 			<br>
 			<div class="row">
-				<nav>
-					<ul class="nav nav-tabs nav-justified"">
-						<li<?php if ($pagename == "Home") { echo ' class="active"'; } ?>><a href="index.php">Home</a></li>
-						<li<?php if ($pagename == "About") { echo ' class="active"'; } ?>><a href="about.php">About</a></li>
-						<li<?php if ($pagename == "Events") { echo ' class="active"'; } ?>><a href="events.php">Events</a></li>
-						<li<?php if ($pagename == "Schedule") { echo ' class="active"'; } ?>><a href="schedule.php">Schedule</a></li>
-						<li<?php if ($pagename == "Archives") { echo ' class="active"'; } ?>><a href="archives.php">Archives</a></li>
-						<li<?php if ($pagename == "Resources") { echo ' class="active"'; } ?>><a href="resources.php">Resources</a></li>
-						<li<?php if ($pagename == "Contact") { echo ' class="active"'; } ?>><a href="contact.php">Contact</a></li>
-					</ul>
+				<nav class = "navbar" role = "navigation">
+					<div class="container-fluid">
+						<div class="navbar-header visible-xs-block navbar-default">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class = "sr-only">Toggle navigation</span>
+								<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+							</button>
+							<a class = "navbar-brand" href = ""><?php echo $pagename ?></a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav nav-tabs nav-justified">
+								<li role="presentation"<?php if ($pagename == "Home") { echo ' class="active"'; } ?>><a href="index.php">Home</a></li>
+								<li role="presentation"<?php if ($pagename == "About") { echo ' class="active"'; } ?>><a href="about.php">About</a></li>
+								<li role="presentation"<?php if ($pagename == "Events") { echo ' class="active"'; } ?>><a href="events.php">Events</a></li>
+								<li role="presentation"<?php if ($pagename == "Schedule") { echo ' class="active"'; } ?>><a href="schedule.php">Schedule</a></li>
+								<li role="presentation"<?php if ($pagename == "Archives") { echo ' class="active"'; } ?>><a href="archives.php">Archives</a></li>
+								<li role="presentation"><a href="http://coloradocommunityradio.com/docu_wiki/doku.php">Wiki</a></li>
+								<li role="presentation"<?php if ($pagename == "Contact") { echo ' class="active"'; } ?>><a href="contact.php">Contact</a></li>
+							</ul>
+						</div>
+					</div>
 				</nav>
 			</div>
 		</div>
-		<br>
 	</header>
